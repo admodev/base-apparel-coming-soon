@@ -1,0 +1,3 @@
+function sendform() {
+    getElementById("email")
+}

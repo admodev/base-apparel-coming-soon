@@ -1,0 +1,145 @@
+body {
+  background: url("images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+body,
+footer {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#left {
+  display: block;
+  float: left;
+  width: 40%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#logo {
+  margin-bottom: 20%;
+}
+
+h1 {
+  margin: 0 0 5% 0;
+  font-size: 600%;
+  color: hsl(0, 6%, 24%);
+  text-transform: uppercase;
+  letter-spacing: 20;
+  font-weight: 300;
+}
+
+h1 > span {
+  color: hsl(0, 36%, 70%);
+  font-weight: 100;
+}
+
+h2 {
+  width: 85%;
+  color: hsl(0, 36%, 70%);
+  font-size: 120%;
+  font-weight: 100;
+  letter-spacing: 2;
+  line-height: 1.5;
+  margin: 0 0 5% 0;
+}
+
+#right {
+  display: block;
+  float: right;
+  width: 40%;
+}
+
+#hero-img {
+  transform: translate(32px, -8px);
+  height: 840px;
+  width: 550px;
+  float: right;
+  margin-right: 0 auto;
+}
+
+form {
+  position: relative;
+}
+
+input[type="email"] {
+  float: left;
+  padding-left: 18px;
+  width: 70%;
+  height: 6%;
+  border: 1px solid hsl(0, 80%, 86%);
+  border-radius: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(0, 80%, 86%);
+  font-size: 14px;
+}
+
+#alert {
+  height: 3%;
+  float: left;
+  margin-left: -15%;
+  margin-top: 2.5%;
+}
+
+p,
+input[value="email@example.com"] {
+  font-size: 16px;
+  padding-left: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+#button {
+  float: left;
+  margin-left: -10%;
+  width: 20%;
+  height: 6%;
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+  border-radius: 40px;
+  box-shadow: 2px 2px 20px hsl(0, 80%, 86%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="image"] {
+  width: 10%;
+}
+
+#left p {
+  clear: left;
+  margin-top: 15%;
+  color: hsl(0, 93%, 68%, 60%);
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 2%;
+}
+
+a {
+  color: black;
+}
+
+.container-general {
+  transform: translate(0px, 70px);
+  margin: 0 auto;
+  height: 800px;
+  width: 1100px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
